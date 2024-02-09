@@ -1,0 +1,28 @@
+.about
+{
+    background-color: var(--main-color);
+}
+.aboutIcon
+{
+    position: relative;
+}
+.aboutIcon::before
+{
+    content: '';
+    height: 4px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+.aboutIcon::after
+{
+    content: '';
+    height: 4px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    right: 40%;
+    top: 50%;
+}

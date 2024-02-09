@@ -1,0 +1,32 @@
+.input
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.2px solid #DFE2E6;
+    width: 50%;
+}
+.contactIcon
+{
+    position: relative;
+}
+.contactIcon::before
+{
+    content: '';
+    height: 4px;
+    width: 100px;
+    background-color: var(--second-color);
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+.contactIcon::after
+{
+    content: '';
+    height: 4px;
+    width: 100px;
+    background-color: var(--second-color);
+    position: absolute;
+    right: 40%;
+    top: 50%;
+}

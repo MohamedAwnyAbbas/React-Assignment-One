@@ -1,0 +1,10 @@
+.bgMain
+{
+    background-color: var(--main-color) !important;
+    border-radius: 5% !important;
+}
+.link
+{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,28 @@
+.home
+{
+    background-color: var(--main-color);
+}
+.homeIcon
+{
+    position: relative;
+}
+.homeIcon::before
+{
+    content: '';
+    height: 4px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+.homeIcon::after
+{
+    content: '';
+    height: 4px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    right: 40%;
+    top: 50%;
+}

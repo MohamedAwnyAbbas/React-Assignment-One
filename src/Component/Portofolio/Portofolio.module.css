@@ -1,0 +1,51 @@
+.portoIcon
+{
+    position: relative;
+}
+.portoIcon::before
+{
+    content: '';
+    height: 4px;
+    width: 100px;
+    background-color: var(--second-color);
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+.portoIcon::after
+{
+    content: '';
+    height: 4px;
+    width: 100px;
+    background-color: var(--second-color);
+    position: absolute;
+    right: 40%;
+    top: 50%;
+}
+.img
+{
+    position: relative;
+}
+.overlay
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    border-radius: 5px;
+    left:0px;
+    top:0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    background-color: var(--main-color);
+    opacity: 0;
+    transition: ease 0.5s;
+}
+.img:hover .overlay
+{
+    opacity: 1;
+    cursor: pointer;
+}
